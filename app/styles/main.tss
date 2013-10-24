@@ -1,0 +1,9 @@
+// tss for class attribute
+".container" : {
+  
+},
+
+// tss for id attribute
+"#lbGreetings" : {
+	top : "10"
+}

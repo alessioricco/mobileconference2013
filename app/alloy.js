@@ -9,3 +9,11 @@
 // object. For example:
 //
 // Alloy.Globals.someGlobalFunction = function(){};
+
+
+// the url
+Alloy.Globals.url = "http://mobileconference.alessioricco.com/handler.ashx";
+// the content as JSON object
+Alloy.Globals.json = null;
+
+

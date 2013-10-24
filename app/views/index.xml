@@ -1,13 +1,14 @@
 <Alloy>
 	<TabGroup>
-		<Tab title="Tab 1" icon="KS_nav_ui.png">
-			<Window title="Tab 1">
-				<Label>I am Window 1</Label>
+		<Tab title="main" icon="KS_nav_ui.png">
+			<Window title="Main">
+				<!- including another view: main.xml ->
+				<Require type="view" src="main"/>
 			</Window>
 		</Tab>
-		<Tab title="Tab 2" icon="KS_nav_views.png">
-			<Window title="Tab 2">
-				<Label>I am Window 2</Label>
+		<Tab title="credits" icon="KS_nav_views.png">
+			<Window title="Credits">
+				<Label>Thank you</Label>
 			</Window>
 		</Tab>
 	</TabGroup>

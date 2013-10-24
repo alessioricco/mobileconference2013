@@ -1,0 +1,12 @@
+<Alloy>
+	<View class="container">
+		<!-- label styles are defined in main.tss -->
+		<Label id="lbGreetings">Hello</Label>	
+		
+		<!-- label styles are defined via json -->
+		<Label id="lbGreetings2">How are you?</Label>		
+			
+		<!-- button with inline style attribute -->
+		<Button onClick="refresh" bottom="20px">Refresh</Button>
+	</View>
+</Alloy>
